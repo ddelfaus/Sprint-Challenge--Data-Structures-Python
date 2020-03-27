@@ -40,12 +40,11 @@ class RingBuffer:
        
         # TODO: Your code here
         
-        # go the through each element with a while list current_bode is n
-        current_item = self.storage.tail
-        while current_item is not self.storage.head:
-            list_buffer_contents.append(current_item.value)
-            current_item = current_item.prev
-        list_buffer_contents.append(self.storage.head.value)
+        # current_item = self.storage.tail
+        # while current_item is not self.storage.head:
+        #     list_buffer_contents.append(current_item.value)
+        #     current_item = current_item.prev
+        # list_buffer_contents.append(self.storage.head.value)
 # ----------------Stretch Goal-------------------
 
 
